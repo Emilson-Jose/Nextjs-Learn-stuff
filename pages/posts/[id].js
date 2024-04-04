@@ -31,6 +31,8 @@ export default function Post({ postData }) {
           <h1 className={utilStyles.headingXl}>{postData.title}</h1>
           <div className={utilStyles.lightText}>
             <Date dateString={postData.date} />
+            <p>{postData.fileContents}</p> {/* TEMPORARY LINE */}
+            <p>{postData.date}</p> {/* TEMPORARY LINE */}
           </div>
           <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
         </article>
