@@ -1,5 +1,4 @@
-#import os  (not used in-browser ver)
-from pyscript import document
+import os
 
 global BOARD; BOARD = [     # -----------
     [' ', ' ', ' '],        # 3 [X][O][O]  Current player: X
@@ -153,7 +152,7 @@ def print_game():
 
 def main():
     global BOARD; global CUR_PLY
-    #os.system('cls')   (not used in-browser ver)
+    os.system('cls')
     print("\n+----- Tic Tac Toe -----+")
     print("+- Three in a row wins -+\n")
     print_game()
