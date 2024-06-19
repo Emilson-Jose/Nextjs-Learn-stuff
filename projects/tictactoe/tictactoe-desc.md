@@ -11,8 +11,8 @@ interactive: true
 This program was written to stretch my Python coding muscles. I focused on the following three aspects of coding for this refresher.
 
 - Clarity - making the program easy to look at and understand. 
-- 2D data management -
-- User-control -
+- 2D data management - applications of 2d array structures using Python lists
+- User-control - Python input handling
 
 # Reflection
 
