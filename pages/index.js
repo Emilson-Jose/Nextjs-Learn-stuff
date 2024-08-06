@@ -23,7 +23,7 @@ export default function Home({ allPostsData, allProjectsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section className={utilStyles.headingMd}>
+      <section>
         <p>This is my self-introduction statement. The statement has been placed here by the author to satisfy the tutorial's self-introduction step.</p>
         <p>
           (This is a sample website - you’ll be building a site like this on{' '}
